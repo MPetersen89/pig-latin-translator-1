@@ -1,7 +1,9 @@
 body {
     background-color: rgb(199, 228, 218);
+    text-align: center;
 }
 
 .jumbotron {
     height: 150px;
+    text-align: center;
 }
