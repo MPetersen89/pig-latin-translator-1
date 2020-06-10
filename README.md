@@ -1,19 +1,24 @@
-| Behavior                                              | Input Example            | Output                   |
-|-------------------------------------------------------|--------------------------|--------------------------|
-| Program should add "way" to the end of words beginning with a vowel           | 1993                     | False                    |
-| Program should move all of the first consecutive consonants to the end and add "ay" to words beginning with one or more consonants     | 2004                     | True                     |
-| Program should move "qu" to the end of  | 1900                     | False                    |
-| Program should return true for year divisible by 400  | 2000                     | True                     |
-
 
 
 # Pig Latin Translator
 
-#### Translates a sentence from English to Pig Latin.
+### Translates a sentence from English to Pig Latin.
 
-#### By: Michael Petersen and Janet Karpenske
+### By: Michael Petersen and Janet Karpenske
 
-##### Pig Latin Translator recieves a sentence from the user and translates the sentence into Pig Latin.
+#### Pig Latin Translator recieves a sentence from the user and translates the sentence into Pig Latin.
+
+
+
+| Behavior                                              | Input Example            | Output                   |
+|-------------------------------------------------------|--------------------------|--------------------------|
+| Program ignores non-alphabetical characters, since they do not contain consonants or vowels           | 234                    |  234                    |
+| Program should add "ay" to single-letter words beginning with a vowel          | I                | Iway
+| Program should add "way" to the end of words beginning with a vowel           | And                     | Andway                    |
+| Program should move all of the first consecutive consonants to the end and add "ay" to words beginning with one or more consonants     | Pizza                     | Izzapay                     |
+| Program should treat "y" as a consonant in words beginning with "y"  | Yellow                     | Ellowyay                     |
+| Program should move "qu" to the end of words beginning with "qu" | Quick                     | Ickquay                    |
+
 
 ### Link to Site on Github Pages
 #### Not Applicable
@@ -28,7 +33,7 @@
 No Known Bugs
 
 ## Support & Contact Details
-For additional information or to contact Michael Petersen or Janet Karpenske.
+For additional information or to contact Michael Petersen (<michael_petersen_email@yahoo.com>) or Janet Karpenske (<janetkarpenske@gmail.com>).
 
 ## Technologies Used
 A combination of HTML and Markdown were used to create the finished portfolio. CSS and Bootstrap were used to style the HTML document.
