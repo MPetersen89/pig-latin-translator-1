@@ -18,29 +18,29 @@ $(document).ready(function() {
 
 // alert("This is the sentence you put: " (sentenceArray));
         
-        let charArray = [];
+      let charArray = [];
         sentenceArray.forEach(function(word) {
-          wordChars = word.split('');
-          charArray.push(wordChars);
-            if (word.length === 1) {
-              word = word + "yay"
-              alert("If statement reached. This is the new word: " + word);
-              return word;
-              }
-            else if {
-              for (index = 0, index < 2, index ++) {
-                if (vowels.includes(charArray[index])) {
-                  alert("Word contains vowels");
-                }
-              }
-            }
-            else {
-                return word;
-            }
-          });
-          charArray;
+        wordChars = word.split('');
+        charArray.push(wordChars);
+          if (word.length === 1) {
+            word = word + "yay"
+            alert("If statement reached. This is the new word: " + word);
+            return word;
+          }
+            //else if {
+              //for (index = 0; index < 2; index ++) {
+                //if (vowels.includes(charArray[index])) {
+                //alert("Word contains vowels");
+              //}
+            //}
+          //}
+            //else {
+            //return word;
+          //}
+        });
+        charArray;
           
             
-        $("#result").append(sentenceArray); 
+        $("#result").append(sentenceArray);
     });
 })
