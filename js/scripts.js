@@ -16,37 +16,31 @@ $(document).ready(function() {
 
         sentenceArray = sentence.split(" "); 
 
-        alert(sentenceArray);
+// alert("This is the sentence you put: " (sentenceArray));
         
         let charArray = [];
         sentenceArray.forEach(function(word) {
           wordChars = word.split('');
           charArray.push(wordChars);
             if (word.length === 1) {
-              // alert(word + " if statement reached successfully");
               word = word + "yay"
-              alert("This is the new word: " + word);
+              alert("If statement reached. This is the new word: " + word);
               return word;
               }
-            else if (word.length>1 && vowels.includes(word.charAt[0]) {  
-                word = word + "way"
-                alert("Else statement reached. This is the new word: " + word);
-                return word;
+            else if {
+              for (index = 0, index < 2, index ++) {
+                if (vowels.includes(charArray[index])) {
+                  alert("Word contains vowels");
+                }
               }
-            
-          
+            }
+            else {
+                return word;
+            }
           });
           charArray;
           
-            //if (vowelArray.includes(sentenceArray[index]))
             
-            
-        $("#result").append(sentenceArray);   //Results section
-        
-
+        $("#result").append(sentenceArray); 
     });
 })
-
-// get input sentence from user, split sentence into an array of words, for each word element split into separate characters, 
-
-// keep punctuation and sentence structure
